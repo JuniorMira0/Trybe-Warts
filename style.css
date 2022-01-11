@@ -29,6 +29,8 @@
   display: flex;
   width: 675px;
   flex-direction: column;
+  align-content: center;
+  padding: 60px;
 }
 
 #main {
@@ -42,5 +44,15 @@
 }
 #trybewarts-forms-logo {
   height: 500px;
-  padding: 50px;
+  padding: 50px 50px 0 0;
+}
+
+.content-name {
+  display: flex;
+  flex-flow: row;
+}
+
+.content-email-house {
+  display: flex;
+  flex-flow: row;
 }
