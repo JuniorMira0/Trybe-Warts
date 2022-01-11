@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -27,24 +27,83 @@
 
     <main id="main">
       <form id="evaluation-form">
-        <div class="content">
-          <input type="text" id="input-name" placeholder="Nome" />
+        <div class="content-name">
+          <div>
+            <input type="text" id="input-name" placeholder="Nome" />
+          </div>
+          <div>
+            <input type="text" id="input-lastname" placeholder="Sobrenome" />
+          </div>
         </div>
-        <div class="content">
-          <input type="text" id="input-lastname" placeholder="Sobrenome" />
+        <div class="content-email-house">
+          <div>
+            <input type="text" id="input-email" placeholder="Email" />
+          </div>
+          <div>
+            <label for="">Casa:</label>
+            <select name="casas" id="house">
+              <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+              <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+              <option value="Corvinode" id="corvinode-house">Corvinode</option>
+              <option value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
+          </div>
         </div>
-        <div class="content">
-          <input type="text" id="input-email" placeholder="Email" />
-        </div>
-        <div class="content">
-          <label for="casas">Casa:</label>
-          <select name="casas" id="house">
-            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-            <option value="Corvinode" id="corvinode-house">Corvinode</option>
-            <option value="Pytherina" id="pytherina-house">Pytherina</option>
-          </select>
-        </div>
+        <br />
+        <hr />
+        <br />
+        <section>
+          <div class="ratio-family">
+            <label for="" id="label-family">Qual sua família?</label>
+            <div class="radio">
+              <input type="radio" name="family" value="Frontend" />
+              <label for=""> Frontend </label>
+            </div>
+            <div class="radio">
+              <input type="radio" name="family" value="Backend" />
+              <label for="">Backend</label>
+            </div>
+            <div class="radio">
+              <input type="radio" name="family" value="FullStack" />
+              <label for="">FullStack</label>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="checkbox-content">
+            <label for="" id="label-content"
+              >Qual conteúdo você está com mais vontade de aprender?</label
+            >
+            <div>
+              <input type="checkbox" value="HoFs" />
+              <label for="">HoFs</label>
+            </div>
+            <div>
+              <input type="checkbox" value="Jest" />
+              <label for="">Jest</label>
+            </div>
+            <div>
+              <input type="checkbox" value="Promises" />
+              <label for="">Promises</label>
+            </div>
+            <div>
+              <input type="checkbox" value="React" />
+              <label for="">React</label>
+            </div>
+            <div>
+              <input type="checkbox" value="SQL" />
+              <label for="">SQL</label>
+            </div>
+            <div>
+              <input type="checkbox" value="Python" />
+              <label for="">Python</label>
+            </div>
+            <div>
+              <input type="checkbox" value="HoFs" />
+              <label for="">HoFs</label>
+            </div>
+          </div>
+        </section>
       </form>
       <section>
         <div class="trybewarts">
@@ -56,6 +115,6 @@
         </div>
       </section>
     </main>
-    <script src="script.js"></script>
+    <script src='script.js'></script>
   </body>
 </html>
