@@ -22,7 +22,7 @@
   top: 2%;
   width: 100%;
   text-align: center;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 #evaluation-form {
@@ -63,7 +63,36 @@
   justify-content: space-between;
 }
 
+#password {
+  margin-left: 10px;
+}
+
+#buttonEntrar {
+  margin-left: 10px;
+}
+
 #footer {
   display: flex;
   justify-content: center;
+}
+
+#input-name {
+  border-radius: 20px;
+}
+
+#input-lastname {
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+#input-email {
+  border-radius: 20px;
+}
+
+#label-casa {
+  margin-left: 10px;
+}
+
+#house {
+  margin-left: 10px;
 }
