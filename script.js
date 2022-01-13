@@ -4,7 +4,7 @@ const buttonEntrar = document.getElementById("buttonEntrar");
 
 // função para checkar email e senha
 function checkUser() {
-  if (email.value == "tryber@teste.com" && password.value == "123456") {
+  if (email.value === "tryber@teste.com" && password.value === "123456") {
     alert("Olá, Tryber!");
   } else {
     alert("Email ou senha inválidos.");
