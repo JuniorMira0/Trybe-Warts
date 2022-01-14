@@ -95,15 +95,6 @@ select {
   background-color: white;
 }
 
-button:hover {
-  background: linear-gradient(
-    to bottom,
-    rgb(226, 223, 223) 5%,
-    rgb(214, 213, 213) 100%
-  );
-  background-color: rgb(224, 221, 221);
-}
-
 button:active {
   position: relative;
   top: 1px;
