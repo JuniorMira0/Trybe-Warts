@@ -46,6 +46,7 @@ body {
   flex-direction: row;
   justify-content: flex-end;
 }
+
 #trybewarts-forms-logo {
   height: 500px;
   padding: 50px 50px 0 0;
@@ -72,19 +73,22 @@ input {
   margin: 5px;
   border-radius: 7px;
   border: none;
-  outline-width: 0ch;
+  outline-width: 0;
 }
 
 footer {
   text-align: center;
 }
+
 footer p {
   padding-top: 10px;
 }
+
 #select {
   padding: 5px;
   margin: 5px;
 }
+
 select {
   width: 137px;
   border-radius: 7px;
@@ -92,25 +96,27 @@ select {
 }
 
 button {
-  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  box-shadow: inset 0px 1px white;
   background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
   background-color: #ededed;
   border-radius: 6px;
-  border: 1px solid #dcdcdc;
+  border: 1px solid gainsboro;
   display: inline-block;
   cursor: pointer;
-  color: #777777;
+  color: #777;
   font-family: Arial;
   font-size: 15px;
   font-weight: bold;
   padding: 6px 14px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #ffffff;
+  text-shadow: 0px 1px 0px white;
 }
+
 button:hover {
   background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
   background-color: #dfdfdf;
 }
+
 button:active {
   position: relative;
   top: 1px;
