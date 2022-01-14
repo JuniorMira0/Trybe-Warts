@@ -96,8 +96,8 @@ select {
 }
 
 button:hover {
-  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
-  background-color: #dfdfdf;
+  background: linear-gradient(to bottom, #e6e6e6 5%, #eee 100%);
+  background-color: #e0e0e0;
 }
 
 button:active {
