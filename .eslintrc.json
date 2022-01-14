@@ -15,7 +15,7 @@
       "arrow-parens": [2, "always"],
       "no-param-reassign": "off",
       "jsx-a11y/label-has-associated-control": 0,
-      "quotes": [2, "single"],
+      "quotes": [1, "single"],
       "implicit-arrow-linebreak": "off",
       "consistent-return": "off",
       "no-unused-vars": [

@@ -13,6 +13,8 @@ function checkUser() {
 
 buttonEntrar.addEventListener("click", checkUser);
 
+// função para desabilitar botão enviar
+
 const agreement = document.getElementById("agreement");
 const submitButton = document.getElementById("submit-btn");
 
